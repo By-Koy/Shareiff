@@ -2158,6 +2158,143 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:VSS"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VSS"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VSS\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VSS_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.27) (xy -0.762 1.27) (xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "VSS_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "Off board \nconnector (diag)"
+		(exclude_from_sim no)
+		(at 94.234 145.796 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4a79b45d-8a02-4eec-9d92-f5f55d8a273a")
 	)
 	(junction
 		(at 138.43 78.74)
@@ -2168,6 +2305,36 @@
 	(no_connect
 		(at 181.61 124.46)
 		(uuid "1b8c6fe6-93de-4904-b285-0ab7004cb239")
+	)
+	(wire
+		(pts
+			(xy 62.23 134.62) (xy 62.23 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f5ef8b1-caab-449b-aa88-db5075f46c89")
+	)
+	(wire
+		(pts
+			(xy 97.79 156.21) (xy 133.35 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10d81b27-5ac2-43d9-a95a-5f8a35b67b07")
+	)
+	(wire
+		(pts
+			(xy 92.71 134.62) (xy 92.71 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11032dbd-7fe4-4507-8edc-404b4d45a0df")
 	)
 	(wire
 		(pts
@@ -2201,6 +2368,36 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 134.62) (xy 110.49 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26dac10b-2c6d-4595-9539-c6631dd3fe7b")
+	)
+	(wire
+		(pts
+			(xy 97.79 134.62) (xy 97.79 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a5b9129-ade6-40e0-932e-bffd6f672870")
+	)
+	(wire
+		(pts
+			(xy 90.17 157.48) (xy 133.35 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "350e4f39-891b-4468-8ef1-c02dc8221c84")
+	)
+	(wire
+		(pts
 			(xy 54.61 142.24) (xy 49.53 142.24)
 		)
 		(stroke
@@ -2218,6 +2415,16 @@
 			(type default)
 		)
 		(uuid "4c7c0e27-cedf-4add-8edb-1bd5c46603ad")
+	)
+	(wire
+		(pts
+			(xy 110.49 154.94) (xy 133.35 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7022b278-4821-4a3c-9592-af38a5a7d8e0")
 	)
 	(wire
 		(pts
@@ -2271,6 +2478,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 134.62) (xy 90.17 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abb96237-ab59-4e85-a8ed-49799efda11a")
+	)
+	(wire
+		(pts
 			(xy 34.29 52.07) (xy 82.55 52.07)
 		)
 		(stroke
@@ -2281,6 +2498,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 158.75) (xy 133.35 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2488539-d8c3-4b7b-aae7-5051f437037c")
+	)
+	(wire
+		(pts
 			(xy 82.55 52.07) (xy 82.55 78.74)
 		)
 		(stroke
@@ -2288,6 +2515,26 @@
 			(type default)
 		)
 		(uuid "c5741a2d-e7e9-415c-a0d4-a78090de2d5b")
+	)
+	(wire
+		(pts
+			(xy 95.25 134.62) (xy 95.25 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2953359-6635-4a5c-9ba2-05763bfa8cb4")
+	)
+	(wire
+		(pts
+			(xy 113.03 153.67) (xy 133.35 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d611bcd8-2ea2-47df-9d54-a0552fbbc502")
 	)
 	(wire
 		(pts
@@ -2309,19 +2556,30 @@
 		)
 		(uuid "e3df6d95-c066-4a90-a72b-c9a7e976d853")
 	)
-	(global_label "VSS"
-		(shape input)
-		(at 34.29 142.24 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
+	(wire
+		(pts
+			(xy 113.03 134.62) (xy 113.03 153.67)
 		)
-		(uuid "063e8c7b-7a56-43dd-af4a-e4322726d2e4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.7972 142.24 0)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eea42185-adf0-4ede-acf5-462476c12026")
+	)
+	(symbol
+		(lib_id "power:VSS")
+		(at 34.29 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3bce8640-e60f-43dc-a8a7-3f21948de213")
+		(property "Reference" "#PWR01"
+			(at 34.29 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2329,23 +2587,77 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+			)
+		)
+		(property "Value" "VSS"
+			(at 34.29 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VSS\""
+			(at 34.29 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "853e49d6-dcbe-4c01-b906-6e299fa7d6e9")
+		)
+		(instances
+			(project "Shareiff"
+				(path "/040ec991-b6bb-43d7-bdda-70d709947ea8"
+					(reference "#PWR01")
+					(unit 1)
+				)
 			)
 		)
 	)
-	(global_label "VSS"
-		(shape input)
+	(symbol
+		(lib_id "power:VSS")
 		(at 143.51 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
 		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "35dc806f-32fc-4b44-ab5d-b575c8c8eb0f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 150.0028 78.74 0)
+		(uuid "5471457c-91bf-4e59-91bf-0620f7cd06a5")
+		(property "Reference" "#PWR02"
+			(at 143.51 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2353,7 +2665,60 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+			)
+		)
+		(property "Value" "VSS"
+			(at 143.51 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VSS\""
+			(at 143.51 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a0021a28-5d16-4a00-be3a-dc755239153e")
+		)
+		(instances
+			(project "Shareiff"
+				(path "/040ec991-b6bb-43d7-bdda-70d709947ea8"
+					(reference "#PWR02")
+					(unit 1)
+				)
 			)
 		)
 	)
